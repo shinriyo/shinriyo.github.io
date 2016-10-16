@@ -11,7 +11,7 @@
       }; 
 
       // default
-      setLang("ja");
+      setLang("en");
 
       // pull down
       $('#menu-loc li').hover(function(){
