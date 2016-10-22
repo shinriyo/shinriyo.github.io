@@ -2,7 +2,9 @@
 
 ## run
 
+```
 python -m SimpleHTTPServer
+```
 
 ## access
 
