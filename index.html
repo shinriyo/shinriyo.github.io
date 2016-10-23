@@ -1,717 +1,764 @@
 <!DOCTYPE html>
 <!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
 <head>
 
-   <!--- Basic Page Needs
+    <!--- Basic Page Needs
    ================================================== -->
-   <meta charset="utf-8">
+    <meta charset="utf-8">
     <title>Portfolio</title>
     <meta name="description" content="">
     <meta name="author" content="">
 
-   <!-- Mobile Specific Metas
+    <!-- Mobile Specific Metas
    ================================================== -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
     <!-- CSS
     ================================================== -->
-   <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/default.css">
     <link rel="stylesheet" href="css/layout.css">
-   <link rel="stylesheet" href="css/media-queries.css">
-   <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/media-queries.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
 
-   <!-- Script
+    <!-- Script
    ================================================== -->
-     <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/i18next/i18next.min.js"></script>
     <script src="bower_components/i18next-xhr-backend/i18nextXHRBackend.min.js"></script>
     <script src="bower_components/jquery-i18next/jquery-i18next.min.js"></script>
 
     <script src="js/modernizr.js"></script>
 
-   <!-- Favicons ================================================== -->
-    <link rel="shortcut icon" href="favicon.png" >
+    <!-- Favicons ================================================== -->
+    <link rel="shortcut icon" href="favicon.png">
 </head>
 
 <body>
-   <!-- Header ================================================== -->
-   <header id="home">
+    <!-- Header ================================================== -->
+    <header id="home">
 
-      <nav id="nav-wrap">
+        <nav id="nav-wrap">
 
-         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-         <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+            <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+            <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
 
-         <!-- ローカライズ -->
+            <!-- ローカライズ -->
             <ul id="menu-loc">
-            <li>Language
-                <ul class="child">
-                    <li id="loc-li"><div class="lang" id="en">English only(Translate later...)</div></li>
-                    <li id="loc-li"><div class="lang" id="en">English</div></li>
-                    <li id="loc-li"><div class="lang" id="ja">日本語</div></li>
-                    <li id="loc-li"><div class="lang" id="kr">한국어</div></li>
-                </ul>
-            </li>
-          </ul>
+                <li>Language
+                    <ul class="child">
+                        <li id="loc-li">
+                            <div class="lang" id="en">English only(Translate later...)</div>
+                        </li>
+                        <li id="loc-li">
+                            <div class="lang" id="en">English</div>
+                        </li>
+                        <li id="loc-li">
+                            <div class="lang" id="ja">日本語</div>
+                        </li>
+                        <li id="loc-li">
+                            <div class="lang" id="kr">한국어</div>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
 
-         <ul id="nav" class="nav">
-            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
-            <li><a class="smoothscroll" href="#about">About</a></li>
-            <li><a class="smoothscroll" href="#resume">Resume</a></li>
-            <li><a class="smoothscroll" href="#portfolio">Portfolio</a></li>
-            <!--<li><a class="smoothscroll" href="#testimonials">Testimonials</a></li>-->
-            <li><a class="smoothscroll" href="#contact">Contact</a></li>
-         </ul> <!-- end #nav -->
-      </nav> <!-- end #nav-wrap -->
+            <ul id="nav" class="nav">
+                <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+                <li><a class="smoothscroll" href="#about">About</a></li>
+                <li><a class="smoothscroll" href="#resume">Resume</a></li>
+                <li><a class="smoothscroll" href="#portfolio">Portfolio</a></li>
+                <!--<li><a class="smoothscroll" href="#testimonials">Testimonials</a></li>-->
+                <li><a class="smoothscroll" href="#contact">Contact</a></li>
+            </ul>
+            <!-- end #nav -->
+        </nav>
+        <!-- end #nav-wrap -->
 
-      <div class="row banner">
-         <div class="banner-text">
+        <div class="row banner">
+            <div class="banner-text">
 
-            <h1 class="responsive-headline">I'm Shinsuke Sugita.</h1>
-            <h3>
-                I'm a Shinsuke based <span>Unity developer</span>, <span>Web developer</span> and <span>webdesigner</span> creating awesome and
-                effective visual identities for companies of all sizes around the globe. Let's <a class="smoothscroll" href="#about">start scrolling</a>
-                and learn more <a class="smoothscroll" href="#about">about me</a>.
-            </h3>
-            <hr />
-            <ul class="social">
-               <li><a href="https://www.facebook.com/shinsuke.sugita.1"><i class="fa fa-facebook"></i></a></li>
-               <li><a href="https://twitter.com/shinriyo"><i class="fa fa-twitter"></i></a></li>
-               <li><a href="https://plus.google.com/107552828043032472482"><i class="fa fa-google-plus"></i></a></li>
-               <li><a href="https://www.linkedin.com/in/shinsukesugita"><i class="fa fa-linkedin"></i></a></li>
-               <!--li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                <h1 class="responsive-headline">I'm Shinsuke Sugita.</h1>
+                <h3>
+                    I'm a Shinsuke based <span>Unity developer</span>, <span>Web developer</span> and <span>webdesigner</span> creating awesome and effective visual identities for companies of all sizes around the globe. Let's <a class="smoothscroll"
+                        href="#about">start scrolling</a> and learn more <a class="smoothscroll" href="#about">about me</a>.
+                </h3>
+                <hr />
+                <ul class="social">
+                    <li><a href="https://www.facebook.com/shinsuke.sugita.1"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://twitter.com/shinriyo"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://plus.google.com/107552828043032472482"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/shinsukesugita"><i class="fa fa-linkedin"></i></a></li>
+                    <!--li><a href="#"><i class="fa fa-instagram"></i></a></li>
                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
                <li><a href="#"><i class="fa fa-skype"></i></a></li-->
-            </ul>
-         </div>
-      </div>
+                </ul>
+            </div>
+        </div>
 
-      <p class="scrolldown">
-         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
-      </p>
-   </header> <!-- Header End -->
+        <p class="scrolldown">
+            <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+        </p>
+    </header>
+    <!-- Header End -->
 
-   <!-- About Section
+    <!-- About Section
    ================================================== -->
-   <section id="about">
+    <section id="about">
 
-      <div class="row">
-         <div class="three columns">
-            <img class="profile-pic" src="images/profilepic.jpg" alt="" />
-         </div>
-         <div class="nine columns main-col">
-            <h2>About Me</h2>
-            <p>
-                <span data-i18n="aboutme"></span>
-            </p>
+        <div class="row">
+            <div class="three columns">
+                <img class="profile-pic" src="images/profilepic.jpg" alt="" />
+            </div>
+            <div class="nine columns main-col">
+                <h2>About Me</h2>
+                <p>
+                    <span data-i18n="aboutme"></span>
+                </p>
 
-            <div class="row">
+                <div class="row">
 
-               <div class="columns contact-details">
+                    <div class="columns contact-details">
 
-                  <h2>Contact Details</h2>
-                  <p class="address">
-                     <span>Shinsuke Sugita</span><br>
-                     <span>shinriyo(at)gmail.com</span><br>
-                     <span>LINE: shinriyo</span>
-                  </p>
-               </div>
+                        <h2>Contact Details</h2>
+                        <p class="address">
+                            <span>Shinsuke Sugita</span><br>
+                            <span>shinriyo(at)gmail.com</span><br>
+                            <span>LINE: shinriyo</span>
+                        </p>
+                    </div>
 
-               <!--div class="columns download">
+                    <!--div class="columns download">
                   <p>
                      <a href="#" class="button"><i class="fa fa-download"></i>Download Resume</a>
                   </p>
                </div-->
-            </div> <!-- end row -->
-         </div> <!-- end .main-col -->
-      </div>
-   </section> <!-- About Section End-->
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end .main-col -->
+        </div>
+    </section>
+    <!-- About Section End-->
 
-   <!-- Resume Section
+    <!-- Resume Section
    ================================================== -->
-   <section id="resume">
-      <!-- Education
+    <section id="resume">
+        <!-- Education
       ----------------------------------------------- -->
-      <div class="row education">
-         <div class="three columns header-col">
-            <h1><span>Education</span></h1>
-         </div>
-         <div class="nine columns main-col">
-            <div class="row item">
-               <div class="twelve columns">
-                  <h3><span data-i18n="kindai-title"></span></h3>
-                  <p class="info"><span data-i18n="kindai-desc"></span><span>&bull;</span> <em class="date">April 2007</em></p>
-                  <p>
-                      studied information Technology.
-                      C, PHP, HTML, Oracle DB and so on...
-                  </p>
-               </div>
-             </div>
-         </div> <!-- main-col end -->
-      </div> <!-- End Education -->
+        <div class="row education">
+            <div class="three columns header-col">
+                <h1><span>Education</span></h1>
+            </div>
+            <div class="nine columns main-col">
+                <div class="row item">
+                    <div class="twelve columns">
+                        <h3><span data-i18n="kindai-title"></span></h3>
+                        <p class="info"><span data-i18n="kindai-desc"></span><span>&bull;</span> <em class="date">April 2007</em></p>
+                        <p>
+                            studied information Technology. C, PHP, HTML, Oracle DB and so on...
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- main-col end -->
+        </div>
+        <!-- End Education -->
 
-      <!-- Work ----------------------------------------------- -->
-      <div class="row work">
-         <div class="three columns header-col">
-            <h1><span>Work</span></h1>
-         </div>
-         <div class="nine columns main-col">
-            <div class="row item">
-               <div class="twelve columns">
-                  <h3><span data-i18n="crooz-title"></span></h3>
-                  <p class="info">
-                      <span data-i18n="crooz-desc"></span>
-                      <span>&bull;</span> <em class="date">March 2011 - Present</em>
-                  </p>
-                  <p>
-                      Unity
-                  </p>
-               </div>
-            </div> <!-- item end -->
+        <!-- Work ----------------------------------------------- -->
+        <div class="row work">
+            <div class="three columns header-col">
+                <h1><span>Work</span></h1>
+            </div>
+            <div class="nine columns main-col">
+                <div class="row item">
+                    <div class="twelve columns">
+                        <h3><span data-i18n="crooz-title"></span></h3>
+                        <p class="info">
+                            <span data-i18n="crooz-desc"></span>
+                            <span>&bull;</span> <em class="date">March 2011 - Present</em>
+                        </p>
+                        <p>
+                            Unity
+                        </p>
+                    </div>
+                </div>
+                <!-- item end -->
 
-            <div class="row item">
-               <div class="twelve columns">
-                  <h3><span data-i18n="applibot-title"></span></h3>
-                  <p class="info">
-                      <span data-i18n="applibot-desc"></span>
-                      <span>&bull;</span> <em class="date">March 2011 - 2015</em>
-                  </p>
-                  <p>
-                     cosos2d-x 2.x C++ programming.
-                  </p>
-               </div>
-            </div> <!-- item end -->
+                <div class="row item">
+                    <div class="twelve columns">
+                        <h3><span data-i18n="applibot-title"></span></h3>
+                        <p class="info">
+                            <span data-i18n="applibot-desc"></span>
+                            <span>&bull;</span> <em class="date">March 2011 - 2015</em>
+                        </p>
+                        <p>
+                            cosos2d-x 2.x C++ programming.
+                        </p>
+                    </div>
+                </div>
+                <!-- item end -->
 
-            <div class="row item">
-               <div class="twelve columns">
-                  <h3><span data-i18n="shannon-title"></span></h3>
-                  <p class="info">
-                      <span data-i18n="shannon-desc"></span>
-                      <span>&bull;</span>
-                      <em class="date">March 2011 - March 2015</em>
-                  </p>
-                  <p>
-                     Developed web site Python & Django
-                     And also Unity
-                  </p>
-               </div>
-            </div> <!-- item end -->
+                <div class="row item">
+                    <div class="twelve columns">
+                        <h3><span data-i18n="shannon-title"></span></h3>
+                        <p class="info">
+                            <span data-i18n="shannon-desc"></span>
+                            <span>&bull;</span>
+                            <em class="date">March 2011 - March 2015</em>
+                        </p>
+                        <p>
+                            Developed web site Python & Django And also Unity
+                        </p>
+                    </div>
+                </div>
+                <!-- item end -->
 
-            <div class="row item">
-               <div class="twelve columns">
-                  <h3>
-                      <span data-i18n="oneofthem-title"></span>
-                  </h3>
-                  <p class="info">
-                      <span data-i18n="oneofthem-desc"></span>
-                      <span>&bull;</span>
-                  <em class="date">June 2011 - June 2011</em></p>
-                  <p>
-                      Smart phone game.
-                      Unity
-                  </p>
-               </div>
-            </div> <!-- item end -->
+                <div class="row item">
+                    <div class="twelve columns">
+                        <h3>
+                            <span data-i18n="oneofthem-title"></span>
+                        </h3>
+                        <p class="info">
+                            <span data-i18n="oneofthem-desc"></span>
+                            <span>&bull;</span>
+                            <em class="date">June 2011 - June 2011</em></p>
+                        <p>
+                            Smart phone game. Unity
+                        </p>
+                    </div>
+                </div>
+                <!-- item end -->
 
-            <div class="row item">
-               <div class="twelve columns">
-                  <h3>
-                      <span data-i18n="eighiting-title"></span>
-                  </h3>
-                  <p class="info">
-                      <span data-i18n="eighiting-desc"></span>
-                      <span>&bull;</span>
-                      <em class="date">March 2011 - Present</em></p>
-                  <p>
-                    Smart phone game developer.
-                    CSS, JavaScript, PHP
-                    Kamen Rider wars.
-                    http://www.gpara.com/games/view/2301
-                  </p>
-               </div>
-            </div> <!-- item end -->
+                <div class="row item">
+                    <div class="twelve columns">
+                        <h3>
+                            <span data-i18n="eighiting-title"></span>
+                        </h3>
+                        <p class="info">
+                            <span data-i18n="eighiting-desc"></span>
+                            <span>&bull;</span>
+                            <em class="date">March 2011 - Present</em></p>
+                        <p>
+                            Smart phone game developer. CSS, JavaScript, PHP Kamen Rider wars. http://www.gpara.com/games/view/2301
+                        </p>
+                    </div>
+                </div>
+                <!-- item end -->
 
-            <div class="row item">
-               <div class="twelve columns">
-                  <h3>
-                      <span data-i18n="digidock-title"></span>
-                  </h3>
-                  <p class="info">Client Engeenior<span>&bull;</span> <em class="date">March 2010 - February 2011</em></p>
-                  <p>
-                      <span data-i18n="digidock-desc"></span>
-                  </p>
-               </div>
-            </div> <!-- item end -->
-         </div> <!-- main-col end -->
-      </div> <!-- End Work -->
+                <div class="row item">
+                    <div class="twelve columns">
+                        <h3>
+                            <span data-i18n="digidock-title"></span>
+                        </h3>
+                        <p class="info">Client Engeenior<span>&bull;</span> <em class="date">March 2010 - February 2011</em></p>
+                        <p>
+                            <span data-i18n="digidock-desc"></span>
+                        </p>
+                    </div>
+                </div>
+                <!-- item end -->
+            </div>
+            <!-- main-col end -->
+        </div>
+        <!-- End Work -->
 
-      <!-- Skills
+        <!-- Skills
       ----------------------------------------------- -->
-      <div class="row skill">
-         <div class="three columns header-col">
-            <h1><span>Skills</span></h1>
-         </div>
-
-         <div class="nine columns main-col">
-            <p>
-                Lang: C#, Python, Ruby, Java<br />
-                FW: Django, Flask, Ruby on Rails<br />
-                DB: Oracle, MySQL, PostgreSQL<br />
-            </p>
-                <div class="bars">
-                <ul class="skills">
-                  <!--<li><span class="bar-expand photoshop"></span><em>Photoshop</em></li>-->
-                  <!--<li><span class="bar-expand illustrator"></span><em>Illustrator</em></li>-->
-                  <!--<li><span class="bar-expand wordpress"></span><em>Wordpress</em></li>-->
-                  <li><span class="bar-expand unity"></span><em>Unity</em></li>
-                  <li><span class="bar-expand css5"></span><em>CSS5</em></li>
-                  <li><span class="bar-expand css"></span><em>CSS</em></li>
-                  <li><span class="bar-expand html5"></span><em>HTML5</em></li>
-                  <li><span class="bar-expand jquery"></span><em>jQuery</em></li>
-                </ul>
-                </div><!-- end skill-bars -->
-            </div> <!-- main-col end -->
-      </div> <!-- End skills -->
-   </section> <!-- Resume Section End-->
-
-   <!-- Portfolio Section
-   ================================================== -->
-   <section id="portfolio">
-      <div class="row">
-         <div class="twelve columns collapsed">
-            <h1>Check Out Some of My Works.</h1>
-
-            <!-- portfolio-wrapper -->
-            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
-                 <div class="columns portfolio-item">
-                  <div class="item-wrap">
-                     <a href="#modal-01" title="">
-                        <img alt="" src="images/portfolio/exodus.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-                            <h5>
-                                <span data-i18n="module-title"></span>
-                            </h5>
-                            <p>
-                                <span data-i18n="module-desc"></span>
-                            </p>
-                            </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-                  </div>
-                  </div> <!-- item end -->
-
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-                     <a href="#modal-02" title="">
-                        <img alt="" src="images/portfolio/gw.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-                              <h5>
-                                <span data-i18n="gw-title"></span>
-                              </h5>
-                              <p>
-                                <span data-i18n="gw-desc"></span>
-                              </p>
-                              </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-                  </div>
-               </div> <!-- item end -->
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-                     <a href="#modal-03" title="">
-                        <img alt="" src="images/portfolio/joker.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-                              <h5>
-                                <span data-i18n="joker-title"></span>
-                              </h5>
-                              <p>
-                                <span data-i18n="joker-desc"></span>
-                              </p>
-                              </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-                  </div>
-                </div> <!-- item end -->
-
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-                     <a href="#modal-04" title="">
-                        <img alt="" src="images/portfolio/pygame.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-                              <h5>
-                                <span data-i18n="pygame-title"></span>
-                              </h5>
-                              <p>
-                                <span data-i18n="pygame-desc"></span>
-                              </p>
-                              </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-                  </div>
-                </div> <!-- item end -->
-
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-                     <a href="#modal-05" title="">
-                        <img alt="" src="images/portfolio/mugen.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-                              <h5>
-                                <span data-i18n="mugen-title"></span>
-                              </h5>
-                              <p>
-                                <span data-i18n="mugen-desc"></span>
-                              </p>
-                              </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-                  </div>
-                </div> <!-- item end -->
-
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-                     <a href="#modal-06" title="">
-                        <img alt="" src="images/portfolio/shannon.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-                              <h5>
-                                <span data-i18n="agent-title"></span>
-                              </h5>
-                              <p>
-                                <span data-i18n="agent-desc"></span>
-                              </p>
-                           </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-                  </div>
-                  </div> <!-- item end -->
-
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-                     <a href="#modal-07" title="">
-                        <img alt="" src="images/portfolio/onigokko.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-                              <h5>
-                                <span data-i18n="onigokko-title"></span>
-                              </h5>
-                              <p>
-                                <span data-i18n="onigokko-desc"></span>
-                              </p>
-                              </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-                  </div>
-                  </div> <!-- item end -->
-
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-                     <a href="#modal-08" title="">
-                        <img alt="" src="images/portfolio/zomotsu.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-                              <h5>
-                                <span data-i18n="zomotsu-title"></span>
-                              </h5>
-                              <p>
-                                <span data-i18n="zomotsu-desc"></span>
-                              </p>
-                              </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-                  </div>  <!-- item end -->
-
-            </div> <!-- portfolio-wrapper end -->
-
-         </div> <!-- twelve columns end -->
-
-         <!-- Modal Popup --------------------------------------------------------------- -->
-
-         <div id="modal-01" class="popup-modal mfp-hide">
-            <img class="scale-with-grid" src="images/portfolio/modals/exodus.jpg" alt="" />
-            <div class="description-box">
-                <h4>Some Modules</h4>
-                Hobby program. Elixir, React JS, Python
-               <span class="categories"><i class="fa fa-tag"></i>Rust, nickel. Python, AngularJS</span>
-            </div>
-            <div class="link-box">
-               <a href="http://qiita.com/shinriyo@github/items/92fc8db27d6fd0025963">Details1</a>
-               <a href="qiita.com/shinriyo@github/items/dca6227216cec2af2214">Details2</a>
-               <a class="popup-modal-dismiss">Close</a>
+        <div class="row skill">
+            <div class="three columns header-col">
+                <h1><span>Skills</span></h1>
             </div>
 
-          </div><!-- modal-01 End -->
-
-         <div id="modal-02" class="popup-modal mfp-hide">
-
-            <img class="scale-with-grid" src="images/portfolio/modals/gw.jpg" alt="" />
-
-            <div class="description-box">
-                <h4>GotchaWarriors X</h4>
-                <p>I developed boss AI and game scene. Some Java and Objective-C Plugins.  We used bad language UnityScript.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Game, DOS</span>
-            </div>
-
-            <div class="link-box">
-               <a href="http://www.4gamer.net/games/207/G020783/20140514027/">Details</a>
-               <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-          </div><!-- modal-02 End -->
-
-         <div id="modal-03" class="popup-modal mfp-hide">
-            <img class="scale-with-grid" src="images/portfolio/modals/joker.jpg" alt="" />
-            <div class="description-box">
-                <h4>Joker</h4>
+            <div class="nine columns main-col">
                 <p>
-                    C++
-                    cocos2d-x 2.x
+                    Lang: C#, Python, Ruby, Java<br /> FW: Django, Flask, Ruby on Rails<br /> DB: Oracle, MySQL, PostgreSQL<br />
                 </p>
-               <span class="categories"><i class="fa fa-tag"></i>cocos2d-x, iOS, Android</span>
+                <div class="bars">
+                    <ul class="skills">
+                        <!--<li><span class="bar-expand photoshop"></span><em>Photoshop</em></li>-->
+                        <!--<li><span class="bar-expand illustrator"></span><em>Illustrator</em></li>-->
+                        <!--<li><span class="bar-expand wordpress"></span><em>Wordpress</em></li>-->
+                        <li><span class="bar-expand unity"></span><em>Unity</em></li>
+                        <li><span class="bar-expand css5"></span><em>CSS5</em></li>
+                        <li><span class="bar-expand css"></span><em>CSS</em></li>
+                        <li><span class="bar-expand html5"></span><em>HTML5</em></li>
+                        <li><span class="bar-expand jquery"></span><em>jQuery</em></li>
+                    </ul>
+                </div>
+                <!-- end skill-bars -->
             </div>
-            <div class="link-box">
-               <a href="http://joker.applibot.co.jp/">Details</a>
-               <a class="popup-modal-dismiss">Close</a>
-            </div>
+            <!-- main-col end -->
+        </div>
+        <!-- End skills -->
+    </section>
+    <!-- Resume Section End-->
 
-          </div><!-- modal-03 End -->
-         <div id="modal-04" class="popup-modal mfp-hide">
-
-            <img class="scale-with-grid" src="images/portfolio/modals/pygame.jpg" alt="" />
-            <div class="description-box">
-                <h4>Translation</h4>
-                <p>Pygame Book</p>
-               <span class="categories"><i class="fa fa-tag"></i>Python, English</span>
-            </div>
-
-            <div class="link-box">
-               <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4048704397/">Details</a>
-               <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-          </div><!-- modal-04 End -->
-
-         <div id="modal-05" class="popup-modal mfp-hide">
-
-            <img class="scale-with-grid" src="images/portfolio/modals/mugen.jpg" alt="" />
-
-            <div class="description-box">
-                <h4>m.u.g.e.n cahracter</h4>
-                <p>Gensai Chin: I developed when I was high school student</p>
-                <p>Reiji Ogami: I developed when I was collage student</p>
-                <a href="https://www.youtube.com/watch?v=e4GA-1TAqH0">YouTube(Reiji Ogami)</a>
-               <span class="categories"><i class="fa fa-tag"></i>Hobby, MS-DOS</span>
-            </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net">Details</a>
-               <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-          </div><!-- modal-05 End -->
-
-         <div id="modal-06" class="popup-modal mfp-hide">
-
-            <img class="scale-with-grid" src="images/portfolio/modals/shannon.jpg" alt="" />
-
-            <div class="description-box">
-                <h4>Web Application, Unity Application
-                </h4>
-                <p>
-                    <a href="http://shannon-lab.org/?page_id=4253">AVATAR-U.com description site</a>
-                    <br />
-                    <a href="http://shannon-lab.org/?page_id=267">Care agent description site</a>
-                    <br />
-                    <a href="http://brainjellyfish.com/open/">No-Kurage</a>
-               </p>
-               <span class="categories"><i class="fa fa-tag"></i>Unity, Django, Python</span>
-            </div>
-
-            <div class="link-box">
-               <a href="http://shannon-lab.org/?page_id=4253">Details</a>
-               <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-          </div><!-- modal-06 End -->
-         <div id="modal-07" class="popup-modal mfp-hide">
-            <img class="scale-with-grid" src="images/portfolio/modals/onigokko.jpg" alt="" />
-            <div class="description-box">
-                <h4>Onigokko in 3D City</h4>
-                <p>Unity game.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Unity, C#</span>
-            </div>
-            <div class="link-box">
-               <a href="https://play.google.com/store/apps/details?id=jp.co.pockertqueries.vroni&hl=ja">Details</a>
-               <a class="popup-modal-dismiss">Close</a>
-            </div>
-          </div><!-- modal-07 End -->
-
-         <div id="modal-08" class="popup-modal mfp-hide">
-            <img class="scale-with-grid" src="images/portfolio/modals/zomotsu.jpg" alt="" />
-            <div class="description-box">
-                <h4>Zomotu Uranai</h4>
-                <p><a href="http://zo-motsu.com/">description site.</a></p>
-               <span class="categories"><i class="fa fa-tag"></i>JavaScript, PhoneGap</span>
-            </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net">Details</a>
-               <a class="popup-modal-dismiss">Close</a>
-            </div>
-          </div><!-- modal-08 End -->
-
-      </div> <!-- row End -->
-
-   </section> <!-- Portfolio Section End-->
-
-
-   <!-- Call-To-Action Section
+    <!-- Portfolio Section
    ================================================== -->
-   <section id="call-to-action">
+    <section id="portfolio">
+        <div class="row">
+            <div class="twelve columns collapsed">
+                <h1>Check Out Some of My Works.</h1>
 
-      <div class="row">
+                <!-- portfolio-wrapper -->
+                <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+                    <div class="columns portfolio-item">
+                        <div class="item-wrap">
+                            <a href="#modal-01" title="">
+                                <img alt="" src="images/portfolio/exodus.jpg">
+                                <div class="overlay">
+                                    <div class="portfolio-item-meta">
+                                        <h5>
+                                            <span data-i18n="module-title"></span>
+                                        </h5>
+                                        <p>
+                                            <span data-i18n="module-desc"></span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="link-icon"><i class="icon-plus"></i></div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- item end -->
 
-         <!--<div class="two columns header-col">
+                    <div class="columns portfolio-item">
+                        <div class="item-wrap">
+                            <a href="#modal-02" title="">
+                                <img alt="" src="images/portfolio/gw.jpg">
+                                <div class="overlay">
+                                    <div class="portfolio-item-meta">
+                                        <h5>
+                                            <span data-i18n="gw-title"></span>
+                                        </h5>
+                                        <p>
+                                            <span data-i18n="gw-desc"></span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="link-icon"><i class="icon-plus"></i></div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- item end -->
+                    <div class="columns portfolio-item">
+                        <div class="item-wrap">
+                            <a href="#modal-03" title="">
+                                <img alt="" src="images/portfolio/joker.jpg">
+                                <div class="overlay">
+                                    <div class="portfolio-item-meta">
+                                        <h5>
+                                            <span data-i18n="joker-title"></span>
+                                        </h5>
+                                        <p>
+                                            <span data-i18n="joker-desc"></span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="link-icon"><i class="icon-plus"></i></div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- item end -->
+
+                    <div class="columns portfolio-item">
+                        <div class="item-wrap">
+                            <a href="#modal-04" title="">
+                                <img alt="" src="images/portfolio/pygame.jpg">
+                                <div class="overlay">
+                                    <div class="portfolio-item-meta">
+                                        <h5>
+                                            <span data-i18n="pygame-title"></span>
+                                        </h5>
+                                        <p>
+                                            <span data-i18n="pygame-desc"></span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="link-icon"><i class="icon-plus"></i></div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- item end -->
+
+                    <div class="columns portfolio-item">
+                        <div class="item-wrap">
+                            <a href="#modal-05" title="">
+                                <img alt="" src="images/portfolio/mugen.jpg">
+                                <div class="overlay">
+                                    <div class="portfolio-item-meta">
+                                        <h5>
+                                            <span data-i18n="mugen-title"></span>
+                                        </h5>
+                                        <p>
+                                            <span data-i18n="mugen-desc"></span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="link-icon"><i class="icon-plus"></i></div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- item end -->
+
+                    <div class="columns portfolio-item">
+                        <div class="item-wrap">
+                            <a href="#modal-06" title="">
+                                <img alt="" src="images/portfolio/shannon.jpg">
+                                <div class="overlay">
+                                    <div class="portfolio-item-meta">
+                                        <h5>
+                                            <span data-i18n="agent-title"></span>
+                                        </h5>
+                                        <p>
+                                            <span data-i18n="agent-desc"></span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="link-icon"><i class="icon-plus"></i></div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- item end -->
+
+                    <div class="columns portfolio-item">
+                        <div class="item-wrap">
+                            <a href="#modal-07" title="">
+                                <img alt="" src="images/portfolio/onigokko.jpg">
+                                <div class="overlay">
+                                    <div class="portfolio-item-meta">
+                                        <h5>
+                                            <span data-i18n="onigokko-title"></span>
+                                        </h5>
+                                        <p>
+                                            <span data-i18n="onigokko-desc"></span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="link-icon"><i class="icon-plus"></i></div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- item end -->
+
+                    <div class="columns portfolio-item">
+                        <div class="item-wrap">
+                            <a href="#modal-08" title="">
+                                <img alt="" src="images/portfolio/zomotsu.jpg">
+                                <div class="overlay">
+                                    <div class="portfolio-item-meta">
+                                        <h5>
+                                            <span data-i18n="zomotsu-title"></span>
+                                        </h5>
+                                        <p>
+                                            <span data-i18n="zomotsu-desc"></span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="link-icon"><i class="icon-plus"></i></div>
+                            </a>
+
+                        </div>
+                    </div>
+                    <!-- item end -->
+
+                </div>
+                <!-- portfolio-wrapper end -->
+
+            </div>
+            <!-- twelve columns end -->
+
+            <!-- Modal Popup --------------------------------------------------------------- -->
+
+            <div id="modal-01" class="popup-modal mfp-hide">
+                <img class="scale-with-grid" src="images/portfolio/modals/exodus.jpg" alt="" />
+                <div class="description-box">
+                    <h4>Some Modules</h4>
+                    Hobby program. Elixir, React JS, Python
+                    <span class="categories"><i class="fa fa-tag"></i>Rust, nickel. Python, AngularJS</span>
+                </div>
+                <div class="link-box">
+                    <a href="http://qiita.com/shinriyo@github/items/92fc8db27d6fd0025963">Details1</a>
+                    <a href="qiita.com/shinriyo@github/items/dca6227216cec2af2214">Details2</a>
+                    <a class="popup-modal-dismiss">Close</a>
+                </div>
+
+            </div>
+            <!-- modal-01 End -->
+
+            <div id="modal-02" class="popup-modal mfp-hide">
+
+                <img class="scale-with-grid" src="images/portfolio/modals/gw.jpg" alt="" />
+
+                <div class="description-box">
+                    <h4>GotchaWarriors X</h4>
+                    <p>I developed boss AI and game scene. Some Java and Objective-C Plugins. We used bad language UnityScript.</p>
+                    <span class="categories"><i class="fa fa-tag"></i>Game, DOS</span>
+                </div>
+
+                <div class="link-box">
+                    <a href="http://www.4gamer.net/games/207/G020783/20140514027/">Details</a>
+                    <a class="popup-modal-dismiss">Close</a>
+                </div>
+
+            </div>
+            <!-- modal-02 End -->
+
+            <div id="modal-03" class="popup-modal mfp-hide">
+                <img class="scale-with-grid" src="images/portfolio/modals/joker.jpg" alt="" />
+                <div class="description-box">
+                    <h4>Joker</h4>
+                    <p>
+                        C++ cocos2d-x 2.x
+                    </p>
+                    <span class="categories"><i class="fa fa-tag"></i>cocos2d-x, iOS, Android</span>
+                </div>
+                <div class="link-box">
+                    <a href="http://joker.applibot.co.jp/">Details</a>
+                    <a class="popup-modal-dismiss">Close</a>
+                </div>
+
+            </div>
+            <!-- modal-03 End -->
+            <div id="modal-04" class="popup-modal mfp-hide">
+
+                <img class="scale-with-grid" src="images/portfolio/modals/pygame.jpg" alt="" />
+                <div class="description-box">
+                    <h4>Translation</h4>
+                    <p>Pygame Book</p>
+                    <span class="categories"><i class="fa fa-tag"></i>Python, English</span>
+                </div>
+
+                <div class="link-box">
+                    <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4048704397/">Details</a>
+                    <a class="popup-modal-dismiss">Close</a>
+                </div>
+
+            </div>
+            <!-- modal-04 End -->
+
+            <div id="modal-05" class="popup-modal mfp-hide">
+
+                <img class="scale-with-grid" src="images/portfolio/modals/mugen.jpg" alt="" />
+
+                <div class="description-box">
+                    <h4>m.u.g.e.n cahracter</h4>
+                    <p>Gensai Chin: I developed when I was high school student</p>
+                    <p>Reiji Ogami: I developed when I was collage student</p>
+                    <a href="https://www.youtube.com/watch?v=e4GA-1TAqH0">YouTube(Reiji Ogami)</a>
+                    <span class="categories"><i class="fa fa-tag"></i>Hobby, MS-DOS</span>
+                </div>
+
+                <div class="link-box">
+                    <a href="http://www.behance.net">Details</a>
+                    <a class="popup-modal-dismiss">Close</a>
+                </div>
+
+            </div>
+            <!-- modal-05 End -->
+
+            <div id="modal-06" class="popup-modal mfp-hide">
+
+                <img class="scale-with-grid" src="images/portfolio/modals/shannon.jpg" alt="" />
+
+                <div class="description-box">
+                    <h4>Web Application, Unity Application
+                    </h4>
+                    <p>
+                        <a href="http://shannon-lab.org/?page_id=4253">AVATAR-U.com description site</a>
+                        <br />
+                        <a href="http://shannon-lab.org/?page_id=267">Care agent description site</a>
+                        <br />
+                        <a href="http://brainjellyfish.com/open/">No-Kurage</a>
+                    </p>
+                    <span class="categories"><i class="fa fa-tag"></i>Unity, Django, Python</span>
+                </div>
+
+                <div class="link-box">
+                    <a href="http://shannon-lab.org/?page_id=4253">Details</a>
+                    <a class="popup-modal-dismiss">Close</a>
+                </div>
+
+            </div>
+            <!-- modal-06 End -->
+            <div id="modal-07" class="popup-modal mfp-hide">
+                <img class="scale-with-grid" src="images/portfolio/modals/onigokko.jpg" alt="" />
+                <div class="description-box">
+                    <h4>Onigokko in 3D City</h4>
+                    <p>Unity game.</p>
+                    <span class="categories"><i class="fa fa-tag"></i>Unity, C#</span>
+                </div>
+                <div class="link-box">
+                    <a href="https://play.google.com/store/apps/details?id=jp.co.pockertqueries.vroni&hl=ja">Details</a>
+                    <a class="popup-modal-dismiss">Close</a>
+                </div>
+            </div>
+            <!-- modal-07 End -->
+
+            <div id="modal-08" class="popup-modal mfp-hide">
+                <img class="scale-with-grid" src="images/portfolio/modals/zomotsu.jpg" alt="" />
+                <div class="description-box">
+                    <h4>Zomotu Uranai</h4>
+                    <p><a href="http://zo-motsu.com/">description site.</a></p>
+                    <span class="categories"><i class="fa fa-tag"></i>JavaScript, PhoneGap</span>
+                </div>
+
+                <div class="link-box">
+                    <a href="http://www.behance.net">Details</a>
+                    <a class="popup-modal-dismiss">Close</a>
+                </div>
+            </div>
+            <!-- modal-08 End -->
+
+        </div>
+        <!-- row End -->
+
+    </section>
+    <!-- Portfolio Section End-->
+
+
+    <!-- Call-To-Action Section
+   ================================================== -->
+    <section id="call-to-action">
+
+        <div class="row">
+
+            <!--<div class="two columns header-col">
 
             <h1><span>Get Hosting.</span></h1>
 
          </div>-->
 
-         <!--<div class="seven columns">
+            <!--<div class="seven columns">
 
             <h2><a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">Host This Template on Dreamhost.</a></h2>
             <p>Looking for an awesome and reliable webhosting? Try <a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT"><span>DreamHost</span></a>.
                     Get <span>$50 off</span> when you sign up with the promocode <span>STYLESHOUT</span>. 
-                    <!-- Simply type    the promocode in the box labeled “Promo Code” when placing your order. --></p>
-         <!--</div>
+                    <!-- Simply type    the promocode in the box labeled “Promo Code” when placing your order. -->
+            </p>
+            <!--</div>
 
          <div class="three columns action">
 
             <a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT" class="button">Sign Up Now</a>
          </div>-->
 
-      </div>
+        </div>
 
-   </section> <!-- Call-To-Action Section End-->
+    </section>
+    <!-- Call-To-Action Section End-->
 
 
-   <!-- Testimonials Section
+    <!-- Testimonials Section
    ================================================== -->
-   <script>
-   /*
-   <section id="testimonials">
-      <div class="text-container">
-         <div class="row">
-            <div class="two columns header-col">
-               <h1><span>Client Testimonials</span></h1>
-            </div>
-            <div class="ten columns flex-container">
-               <div class="flexslider">
-                  <ul class="slides">
-                     <li>
-                        <blockquote>
-                           <p>Your work is going to fill a large part of your life, and the only way to be truly satisfied is
-                           to do what you believe is great work. And the only way to do great work is to love what you do.
-                           If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.
-                           </p>
-                           <cite>Steve Jobs</cite>
-                        </blockquote>
-                     </li> <!-- slide ends -->
+    <script>
+        /*
+           <section id="testimonials">
+              <div class="text-container">
+                 <div class="row">
+                    <div class="two columns header-col">
+                       <h1><span>Client Testimonials</span></h1>
+                    </div>
+                    <div class="ten columns flex-container">
+                       <div class="flexslider">
+                          <ul class="slides">
+                             <li>
+                                <blockquote>
+                                   <p>Your work is going to fill a large part of your life, and the only way to be truly satisfied is
+                                   to do what you believe is great work. And the only way to do great work is to love what you do.
+                                   If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.
+                                   </p>
+                                   <cite>Steve Jobs</cite>
+                                </blockquote>
+                             </li> <!-- slide ends -->
 
-                     <li>
-                        <blockquote>
-                           <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                           Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                           nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
-                           </p>
-                           <cite>Mr. Adobe</cite>
-                        </blockquote>
-                     </li> <!-- slide ends -->
-                  </ul>
-               </div> <!-- div.flexslider ends -->
-            </div> <!-- div.flex-container ends -->
-         </div> <!-- row ends -->
-       </div>  <!-- text-container ends -->
-   </section> <!-- Testimonials Section End-->
-   */
-   </script>
+                             <li>
+                                <blockquote>
+                                   <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                                   Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
+                                   nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
+                                   </p>
+                                   <cite>Mr. Adobe</cite>
+                                </blockquote>
+                             </li> <!-- slide ends -->
+                          </ul>
+                       </div> <!-- div.flexslider ends -->
+                    </div> <!-- div.flex-container ends -->
+                 </div> <!-- row ends -->
+               </div>  <!-- text-container ends -->
+           </section> <!-- Testimonials Section End-->
+           */
+    </script>
 
-   <!-- Contact Section
+    <!-- Contact Section
    ================================================== -->
-   <section id="contact">
+    <section id="contact">
 
-         <div class="row section-head">
+        <div class="row section-head">
             <div class="two columns header-col">
-               <h1><span>Get In Touch.</span></h1>
-               <span>shinriyo(at)gmail.com</span><br>
-               <span>(LINE)shinriyo</span>
+                <h1><span>Get In Touch.</span></h1>
+                <span>shinriyo(at)gmail.com</span><br>
+                <span>(LINE)shinriyo</span>
             </div>
             <aside class="four columns footer-widgets">
-               <div class="widget widget_contact">
-                       <h4>Address</h4>
-                       <p class="address">
-                           Toshima-ku, Tokyo-city<br>
-                           Nearest Line: Yamanote-line
-                       </p>
-                   </div>
+                <div class="widget widget_contact">
+                    <h4>Address</h4>
+                    <p class="address">
+                        Toshima-ku, Tokyo-city<br> Nearest Line: Yamanote-line
+                    </p>
+                </div>
             </aside>
-      </div>
-   </section> <!-- Contact Section End-->
+        </div>
+    </section>
+    <!-- Contact Section End-->
 
-   <!-- footer
+    <!-- footer
    ================================================== -->
-   <footer>
-      <div class="row">
-         <div class="twelve columns">
-            <ul class="social-links">
-               <li><a href="https://www.facebook.com/shinsuke.sugita.1"><i class="fa fa-facebook"></i></a></li>
-               <li><a href="https://twitter.com/shinriyo"><i class="fa fa-twitter"></i></a></li>
-               <li><a href="https://plus.google.com/107552828043032472482"><i class="fa fa-google-plus"></i></a></li>
-               <li><a href="https://www.linkedin.com/in/shinsukesugita"><i class="fa fa-linkedin"></i></a></li>
-               <!--<li><a href="#"><i class="fa fa-instagram"></i></a></li>-->
-               <!--<li><a href="#"><i class="fa fa-dribbble"></i></a></li>-->
-               <!--<li><a href="#"><i class="fa fa-skype"></i></a></li>-->
-            </ul>
+    <footer>
+        <div class="row">
+            <div class="twelve columns">
+                <ul class="social-links">
+                    <li><a href="https://www.facebook.com/shinsuke.sugita.1"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://twitter.com/shinriyo"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://plus.google.com/107552828043032472482"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/shinsukesugita"><i class="fa fa-linkedin"></i></a></li>
+                    <!--<li><a href="#"><i class="fa fa-instagram"></i></a></li>-->
+                    <!--<li><a href="#"><i class="fa fa-dribbble"></i></a></li>-->
+                    <!--<li><a href="#"><i class="fa fa-skype"></i></a></li>-->
+                </ul>
 
-            <ul class="copyright">
-               <li>&copy; Copyright 2016 shinriyo</li>
-               <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>   
-            </ul>
-         </div>
+                <ul class="copyright">
+                    <li>&copy; Copyright 2016 shinriyo</li>
+                    <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>
+                </ul>
+            </div>
 
-         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
-      </div>
-   </footer> <!-- Footer End-->
+            <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+        </div>
+    </footer>
+    <!-- Footer End-->
 
-   <!-- Java Script
+    <!-- Java Script
    ================================================== -->
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
-   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')
+    </script>
+    <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
 
-   <script src="js/jquery.flexslider.js"></script>
-   <script src="js/waypoints.js"></script>
-   <script src="js/jquery.fittext.js"></script>
-   <script src="js/magnific-popup.js"></script>
-   <script src="js/init.js"></script>
+    <script src="js/jquery.flexslider.js"></script>
+    <script src="js/waypoints.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/magnific-popup.js"></script>
+    <script src="js/init.js"></script>
 
     <script src="js/localize.js"></script>
     <link rel="stylesheet" href="css/localize.css">
 </body>
+
 </html>
