@@ -57,5 +57,7 @@
   "onigokko-detail": "술래잡기 게임. Unity 사용했다 . C#",
   "zomotsu-title": "내장 점쳐",
   "zomotsu-desc": "Phone gap. Titanium.",
-  "zomotsu-detail": "Phone gap. Mock를 위해서 Titanium을 사용했다."
+  "zomotsu-detail": "Phone gap. Mock를 위해서 Titanium을 사용했다.",
+  "layered-title": "레이어드 스토리 제로",
+  "layered-desc": "레이어드 스토리 제로 게임 개발"
 }
