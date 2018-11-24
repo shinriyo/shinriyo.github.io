@@ -32,6 +32,8 @@
   "digidock-status": "폴더폰 게임 개발",
   "digidock-desc": "폴더폰 게임 개발",
 
+  "works-title": "개발 실적.",
+
   "module-title": "모듈 개발",
   "module-desc": "Fushicho:Elixir&Phoenix), Mewcalc. Portkille:Python\nAngular.js SPA scaffolding (Rust + nickel framework + PostgreSQL) ",
   "module-detail": "취미 프로그래밍. Elixir, React JS, Python",

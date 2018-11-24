@@ -32,6 +32,8 @@
   "digidock-status": "フィーチャーフォンWebアプリ開発エンジニア(アルバイト)",
   "digidock-desc": "mobage用フィーチャーフォンゲーム開発",
 
+  "works-title": "開発実績.",
+
   "module-title": "モジュール開発",
   "module-desc": "Fushicho:Elixir&Phoenix), Mewcalc. Portkille:Python\nAngular.js SPA scaffolding (Rust + nickel framework + PostgreSQL) ",
   "module-detail": "趣味プログラム. Elixir, React JS, Python",
